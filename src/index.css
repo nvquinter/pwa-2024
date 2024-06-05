@@ -1,13 +1,34 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;500;900&display=swap');
+*{
+    font-family: 'Raleway', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("./rickymorty.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.botones{
+    background-color:#344D67!important;
+}
+
+.botones:hover, .boton:hover, .btn-active{
+    background-color: #6ECCAF !important;
+    color: #344D67!important;
+    width: fit-content;  
+}
+
+a{
+    text-decoration: none;
+    color: #6ECCAF !important;
+} 
+
+@media(max-width:500px){
+    .navbar-brand{
+        padding: 0px!important;
+        margin-bottom: 0px;
+    }
 }
