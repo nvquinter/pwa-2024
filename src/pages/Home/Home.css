@@ -1,0 +1,26 @@
+.containerHeader{
+    height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    background-color: #ffffffe6;
+    height: 600px;
+    width: 600px;
+    color: #344d67;
+}
+
+@media ( max-width:768px){
+    .containerHeader {
+        width: 90%;
+    }
+    h1{
+        font-size: 40px;
+        display: flex;
+    }
+}
+@media(max-width:607px){
+    h1{
+        font-size: 20px;
+    }
+}
